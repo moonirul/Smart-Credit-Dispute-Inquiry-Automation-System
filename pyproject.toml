@@ -1,0 +1,17 @@
+[project]
+name = "smart-credit-dispute-inquiry-automation-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "monirul", email = "monirrul.cse@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+smart-credit-dispute-inquiry-automation-system = "smart_credit_dispute_inquiry_automation_system:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
